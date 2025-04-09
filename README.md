@@ -19,10 +19,9 @@ Go scraper is an api for scraping google serp results.
     "count":"no of results per page" <int>,
     "backoff": "Time for expontential backoff" <int>
 }
-
+```
 
 ## Todo
-- [] : Core scraping feature
-
-
-```
+- [x] : Core scraping feature
+- [ ] : Proxy support
+- [ ] : Captcha passing with GoCaptcha or Whisper-TTS
